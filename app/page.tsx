@@ -110,10 +110,14 @@ export default function Home() {
             <span>Open to software, AI & automation opportunities</span>
           </div>
         </div>
-        <div className="heroVisual" aria-hidden="true">
-          <div className="portraitMark">DK</div>
-          <div className="orbit orbitOne" />
-          <div className="orbit orbitTwo" />
+        <div className="heroVisual">
+          <img
+            className="portraitImage"
+            src="/profile.png"
+            alt="Divesh Kissoon"
+          />
+          <div className="orbit orbitOne" aria-hidden="true" />
+          <div className="orbit orbitTwo" aria-hidden="true" />
         </div>
       </section>
 

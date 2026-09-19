@@ -122,19 +122,15 @@ h3 { letter-spacing: -.025em; }
   margin-top: 32px;
 }
 .heroVisual { position: relative; min-height: 420px; display: grid; place-items: center; }
-.portraitMark {
-  width: 240px;
+.portraitImage {
+  width: 280px;
   aspect-ratio: 1;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-size: 5rem;
-  font-weight: 950;
-  letter-spacing: -.08em;
-  color: var(--accent);
-  background: linear-gradient(145deg, rgba(66,212,255,.13), rgba(255,255,255,.02));
-  border: 1px solid rgba(124,232,255,.28);
-  box-shadow: 0 0 80px rgba(66,212,255,.12);
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+  border: 2px solid rgba(124,232,255,.28);
+  box-shadow: 0 0 80px rgba(66,212,255,.16);
 }
 .orbit { position: absolute; border: 1px solid rgba(124,232,255,.14); border-radius: 50%; }
 .orbitOne { width: 330px; height: 330px; }
@@ -221,7 +217,7 @@ footer {
   .nav { display: none; }
   .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 90px; }
   .heroVisual { min-height: 300px; }
-  .portraitMark { width: 190px; }
+  .portraitImage { width: 210px; }
   .orbitOne { width: 260px; height: 260px; }
   .orbitTwo { width: 310px; height: 190px; }
   .split, .projectGrid, .skillsGrid, .educationGrid { grid-template-columns: 1fr; }
